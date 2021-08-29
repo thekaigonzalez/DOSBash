@@ -5,7 +5,7 @@ void main()
 {
  while (true)
  {
-  write("C:\\"~getcwd()~">");
+  write("C:"~getcwd()~">");
   char[] op;
   readln(op);
   writeln(executeShell(op).output);
